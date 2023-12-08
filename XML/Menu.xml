@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Menu>
+  <item>
+    <icone>
+      
+    </icone>
+    <texto>
+      Home
+    </texto>
+    <link>
+      /Pages/LandingPage.aspx
+    </link>
+  </item>
+  <item>
+    <icone>
+
+    </icone>
+    <texto>
+      Pagina_1
+    </texto>
+    <link>
+      /Pages/Pagina1.aspx
+    </link>
+  </item>
+  <item>
+    <icone>
+
+    </icone>
+    <texto>
+      item3
+    </texto>
+    <link>
+      #
+    </link>
+  </item>
+</Menu>
