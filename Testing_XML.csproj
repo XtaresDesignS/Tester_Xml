@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\Galeria.aspx" />
     <Content Include="Pages\Login_Register.aspx" />
     <Content Include="Pages\ErrorPages\Erro.aspx" />
     <Content Include="Pages\ErrorPages\Erro404.aspx" />
@@ -84,6 +85,13 @@
     </Compile>
     <Compile Include="Layout.Master.designer.cs">
       <DependentUpon>Layout.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Galeria.aspx.cs">
+      <DependentUpon>Galeria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Galeria.aspx.designer.cs">
+      <DependentUpon>Galeria.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Login_Register.aspx.cs">
       <DependentUpon>Login_Register.aspx</DependentUpon>
