@@ -75,8 +75,8 @@
     <Content Include="Pages\Pagina1.aspx" />
     <Content Include="UserControls\Login.ascx" />
     <Content Include="Web.config" />
-    <Content Include="XML\Carrega_Menu.xslt" />
-    <Content Include="XML\Menu.xml" />
+    <Content Include="XML\XML_Menu\Carrega_Menu.xslt" />
+    <Content Include="XML\XML_Menu\Menu.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Layout.Master.cs">

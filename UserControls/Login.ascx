@@ -1,9 +1,10 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Login.ascx.cs" Inherits="Testing_XML.UserControls.Login" %>
 <style>
     /*Form Login*/
-    .tete{
-        border:1px solid;
+    .tete {
+        border: 1px solid;
     }
+
     .form-container {
         position: absolute;
         top: 50%;
@@ -103,7 +104,7 @@
         width: 40%;
         background: transparent;
         background-size: 200% 100%;
-       border: 1px solid var(--bg-one-transp);
+        border: 1px solid var(--bg-one-transp);
         padding: 12px 16px;
         font-size: inherit;
         margin: 8px;
@@ -113,22 +114,16 @@
     }
 
         .form-container .form-submit-btn:hover {
-           
             background: var(--LinGrad-Two);
             background-size: 200% 100%;
             color: var(--color-One);
-            font-weight:900;
+            font-weight: 900;
             border: 1px solid var(--brdr-blue);
             background-image: var(--LinGrad-Two);
             background-origin: border-box;
-            background-clip: padding-box , border-box;
+            background-clip: padding-box, border-box;
             transition: all 0.5s Linear;
-            box-shadow:0px 0px 2px var(--brdr-blue),
-                0px 0px 5px var(--brdr-pur), 
-                0px 0px 8px var(--brdr-pink),
-                inset 0px 0px 1px var(--brdr-blue),
-                inset 0px 0px 5px var(--brdr-pur), 
-                inset 0px 0px 8px var(--brdr-pink);
+            box-shadow: 0px 0px 2px var(--brdr-blue), 0px 0px 5px var(--brdr-pur), 0px 0px 8px var(--brdr-pink), inset 0px 0px 1px var(--brdr-blue), inset 0px 0px 5px var(--brdr-pur), inset 0px 0px 8px var(--brdr-pink);
         }
 
     /*animações*/
@@ -167,53 +162,48 @@
     }
 </style>
 
-<div class="form-container" id="Login_form" runat="server">
-    <div class="form">
-        <h1 class="form-title">Login</h1>
-        <div class="form-group">
-            <label for="Nome">Nome</label>
-            <input name="Nome" id="tb_Nome" type="text" runat="server" />
-        </div>
-        <div class="form-group">
-            <label for="Password">Password</label>
-            <input name="Password" id="tb_Password" type="password" runat="server" />
-        </div>
-        <div class="form-group-btn">
-            <asp:Button ID="btn_submit" class="form-submit-btn" runat="server" Text="Submit" OnClick="btn_submit_Click" />
-            <asp:Button ID="btn_Regist" class="form-submit-btn" runat="server" Text="inscrever" OnClick="btn_Regist_Click" />
-        </div>
-        <asp:Label ID="lb_Erro" runat="server" Text=""></asp:Label>
-    </div>
-</div>
-
-
-<div class="form-container" id="Regist_form" runat="server">
-    <div class="form">
-        <h1 class="form-title">Registar</h1>
-        <div class="form-group">
-            <label for="Nome">Nome</label>
-            <input name="Nome" id="Text1" type="text" runat="server" />
-        </div>
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input name="email" id="email" type="email" runat="server" />
-        </div>
-        <div class="form-group">
-            <label for="Password">Password</label>
-            <input name="Password" id="Password1" type="password" runat="server" />
-        </div>
-        <div class="form-group">
-            <label for="Password">Confirm Password</label>
-            <input name="Password" id="Password2" type="password" runat="server" />
-        </div>
-        <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="as passwords devem ser iguais" ControlToCompare="Password1" ControlToValidate="Password2"></asp:CompareValidator>
-        <div class="form-group-btn">
-            <asp:Button ID="btn_submit_Regist" class="form-submit-btn" runat="server" Text="validar Registo" OnClick="btn_submit_Regist_Click" />
-            <asp:Button ID="btn_submit_Login" class="form-submit-btn" runat="server" Text=" fazer Login" OnClick="btn_submit_Login_Click" />
-        </div>
-        <asp:Label ID="lb_Erro_2" runat="server" Text=""></asp:Label>
-    </div>
-</div>
-
-
-
+                <div class="form-container" id="Login_form" runat="server">
+                    <div class="form">
+                        <h1 class="form-title">Login</h1>
+                        <div class="form-group">
+                            <label for="Nome">Nome</label>
+                            <input name="Nome" id="tb_Nome" type="text" runat="server" />
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input name="Password" id="tb_Password" type="password" runat="server" />
+                        </div>
+                        <div class="form-group-btn">
+                            <asp:Button ID="btn_submit" class="form-submit-btn" runat="server" Text="Submit" OnClick="btn_submit_Click" />
+                            <asp:Button ID="btn_Regist" class="form-submit-btn" runat="server" Text="inscrever" OnClick="btn_Regist_Click" />
+                        </div>
+                        <asp:Label ID="lb_Erro" runat="server" Text=""></asp:Label>
+                    </div>
+                </div>
+          
+                <div class="form-container" id="Regist_form" runat="server">
+                    <div class="form">
+                        <h1 class="form-title">Registar</h1>
+                        <div class="form-group">
+                            <label for="Nome">Nome</label>
+                            <input name="Nome" id="tb_Nome_Regist" type="text" runat="server" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input name="email" id="email" type="email" runat="server" />
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input name="Password" id="Password_Regist" type="password" runat="server" />
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Confirm Password</label>
+                            <input name="Password" id="Password_Regist_Confirm" type="password" runat="server" />
+                        </div>
+                        <div class="form-group-btn">
+                            <asp:Button ID="btn_submit_Regist" class="form-submit-btn" runat="server" Text="validar Registo" OnClick="btn_submit_Regist_Click" />
+                            <asp:Button ID="btn_submit_Login" class="form-submit-btn" runat="server" Text=" fazer Login" OnClick="btn_submit_Login_Click" />
+                        </div>
+                        <asp:Label ID="lb_Erro_2" runat="server" Text=""></asp:Label>
+                    </div>
+                </div>           

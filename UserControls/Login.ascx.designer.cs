@@ -78,13 +78,13 @@ namespace Testing_XML.UserControls
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Regist_form;
 
         /// <summary>
-        /// Text1 control.
+        /// tb_Nome_Regist control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText Text1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText tb_Nome_Regist;
 
         /// <summary>
         /// email control.
@@ -96,31 +96,22 @@ namespace Testing_XML.UserControls
         protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl email;
 
         /// <summary>
-        /// Password1 control.
+        /// Password_Regist control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword Password1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword Password_Regist;
 
         /// <summary>
-        /// Password2 control.
+        /// Password_Regist_Confirm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword Password2;
-
-        /// <summary>
-        /// CompareValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword Password_Regist_Confirm;
 
         /// <summary>
         /// btn_submit_Regist control.
