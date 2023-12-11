@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<automoveis>
+  <situacao id="novo">
+    <marca id = "Mercedes Benz">
+      <veiculo id="1">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>C220</modelo>
+        <preco>160000</preco>
+        <motor>2.2</motor>
+        <potencia>150cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>C220 Station</modelo>
+        <preco>180000</preco>
+        <motor>2.2</motor>
+        <potencia>150cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="3">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>SLK</modelo>
+        <preco>90000</preco>
+        <motor>2.2</motor>
+        <potencia>150cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+    </marca>
+    <marca id = "Fiat">
+      <veiculo id="1">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Punto</modelo>
+        <preco>20000</preco>
+        <motor>1.1</motor>
+        <potencia>120cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Panda</modelo>
+        <preco>10000</preco>
+        <motor>1.1</motor>
+        <potencia>60cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+    </marca>
+    <marca id = "Opel">
+      <veiculo id="1">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Corsa</modelo>
+        <preco>14000</preco>
+        <motor>1.4</motor>
+        <potencia>64cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Astra</modelo>
+        <preco>25000</preco>
+        <motor>2.0</motor>
+        <potencia>100cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="3">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Astra Station</modelo>
+        <preco>26000</preco>
+        <motor>2.0</motor>
+        <potencia>100cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="4">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Vectra</modelo>
+        <preco>35000</preco>
+        <motor>2.2</motor>
+        <potencia>140cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="5">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Astra Sport</modelo>
+        <preco>28000</preco>
+        <motor>2.0</motor>
+        <potencia>140cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+    </marca>
+    <marca id = "Peugeot">
+      <veiculo id="1">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>C1</modelo>
+        <preco>14000</preco>
+        <motor>1.4</motor>
+        <potencia>64cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>C2</modelo>
+        <preco>25000</preco>
+        <motor>2.0</motor>
+        <potencia>100cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="3">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>C3</modelo>
+        <preco>26000</preco>
+        <motor>2.0</motor>
+        <potencia>100cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="4">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>C4</modelo>
+        <preco>35000</preco>
+        <motor>2.2</motor>
+        <potencia>140cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="5">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Saxo</modelo>
+        <preco>28000</preco>
+        <motor>2.0</motor>
+        <potencia>140cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+    </marca>
+    <marca id = "Citroen">
+      <veiculo id="1">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>C1</modelo>
+        <preco>14000</preco>
+        <motor>1.4</motor>
+        <potencia>64cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>C2</modelo>
+        <preco>25000</preco>
+        <motor>2.0</motor>
+        <potencia>100cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="3">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>C3</modelo>
+        <preco>26000</preco>
+        <motor>2.0</motor>
+        <potencia>100cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="4">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>C4</modelo>
+        <preco>35000</preco>
+        <motor>2.2</motor>
+        <potencia>140cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+      <veiculo id="5">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Saxo</modelo>
+        <preco>28000</preco>
+        <motor>2.0</motor>
+        <potencia>140cv</potencia>
+        <kms>0</kms>
+        <matricula></matricula>
+      </veiculo>
+    </marca>
+  </situacao>
+  <situacao id="usado">
+    <marca id = "BMW">
+      <veiculo id="1">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>320</modelo>
+        <preco>40000</preco>
+        <motor>2.0</motor>
+        <potencia>136cv</potencia>
+        <kms>25000</kms>
+        <matricula>04-36-II</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>520</modelo>
+        <preco>80000</preco>
+        <motor>2.0</motor>
+        <potencia>136cv</potencia>
+        <kms>125000</kms>
+        <matricula>14-59-CA</matricula>
+      </veiculo>
+    </marca>
+    <marca id = "Volkswagen">
+      <veiculo id="1">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Golf GT</modelo>
+        <preco>14000</preco>
+        <motor>1.8</motor>
+        <potencia>151cv</potencia>
+        <kms>50000</kms>
+        <matricula>13-76-BZ</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Polo</modelo>
+        <preco>23500</preco>
+        <motor>1.4</motor>
+        <potencia>115cv</potencia>
+        <kms>10000</kms>
+        <matricula>25-18-VA</matricula>
+      </veiculo>
+      <veiculo id="3">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Passat</modelo>
+        <preco>24500</preco>
+        <motor>1.6</motor>
+        <potencia>115cv</potencia>
+        <kms>300000</kms>
+        <matricula>25-15-XV</matricula>
+      </veiculo>
+    </marca>
+    <marca id = "Ford">
+      <veiculo id="1">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Escort</modelo>
+        <preco>4000</preco>
+        <motor>2.0</motor>
+        <potencia>136cv</potencia>
+        <kms>125000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+    </marca>
+    <marca id = "Ferrari">
+      <veiculo id="1">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Escort</modelo>
+        <preco>4000</preco>
+        <motor>2.0</motor>
+        <potencia>136cv</potencia>
+        <kms>125000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+      <veiculo id="2">
+        <foto>https://picsum.photos/200/300</foto>
+        <modelo>Fiesta</modelo>
+        <preco>3000</preco>
+        <motor>1.0</motor>
+        <potencia>66cv</potencia>
+        <kms>75000</kms>
+        <matricula>14-56-TA</matricula>
+      </veiculo>
+    </marca>
+  </situacao>
+</automoveis>

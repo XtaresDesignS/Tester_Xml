@@ -35,7 +35,7 @@
             font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
             font-weight: 400;
         }
-
+       
         .container {
             background: var(--bg-one);
             color: var(--color-one);
@@ -44,6 +44,7 @@
             flex-wrap: wrap;
             justify-content: center;
             width: 100%;
+            margin:auto;
         }
 
         .navbar {
@@ -73,14 +74,14 @@
             transition: all 0.3s linear;
         }
 
-            .nav-Link:hover {
-                background: var(--bg-one);
-                color: var(--color-one);
-                transition: all 0.3s linear;
-            }
+         .nav-Link:hover {
+             background: var(--bg-one);
+             color: var(--color-one);
+             transition: all 0.3s linear;
+         }
 
         .card {
-            margin: 1%;
+            margin: 2%;
             width: 350px;
         }
 
@@ -96,7 +97,7 @@
 
         footer {
             position: fixed;
-            top: 98.2%;
+            top: 95%;
             width: 100%;
         }
 
@@ -108,6 +109,7 @@
             flex-wrap: wrap;
             justify-content: center;
             width: 100%;
+            height:50px;
             text-decoration: none;
             font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
             letter-spacing: 2px;
@@ -126,7 +128,7 @@
             </nav>
         </div>
         <br />
-        <div>
+        <div class="container">
        
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
