@@ -75,7 +75,9 @@
     <Content Include="Pages\Pagina1.aspx" />
     <Content Include="UserControls\Login.ascx" />
     <Content Include="Web.config" />
-    <Content Include="XML\XML_Gallery\Carrega_Gallery.xslt" />
+    <Content Include="XML\XML_Gallery\Carrega_Gallery.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="XML\XML_Gallery\Gallerry.xml" />
     <Content Include="XML\XML_Menu\Carrega_Menu.xslt" />
     <Content Include="XML\XML_Menu\Menu.xml" />

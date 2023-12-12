@@ -61,8 +61,9 @@ namespace Testing_XML.UserControls
             Regist_form.Visible = true;
 
             //para manter a página no formulário aberto no caso do formulário não ser submito 
-            ViewState["RegistVisible"] = true;
             ViewState["LoginVisible"] = false;
+            ViewState["RegistVisible"] = true;
+           
         }
 
         protected void btn_submit_Login_Click(object sender, EventArgs e)
@@ -71,8 +72,9 @@ namespace Testing_XML.UserControls
             Regist_form.Visible = false;
 
             //para manter a página no formulário aberto no caso do formulário não ser submito 
-            ViewState["RegistVisible"] = false;
             ViewState["LoginVisible"] = true;
+            ViewState["RegistVisible"] = false;
+           
         }
 
 

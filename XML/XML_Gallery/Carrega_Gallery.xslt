@@ -20,9 +20,11 @@
             </h5>
             
             <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-              Matricula: <xsl:value-of select="matricula"></xsl:value-of>  ||
-              Kms: <xsl:value-of select="kms"></xsl:value-of> ||
-              estado : <xsl:value-of select="ancestor::situacao/@id"></xsl:value-of>
+              Matricula: <xsl:value-of select="matricula"></xsl:value-of>             
+            </p>  <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+             Kms: <xsl:value-of select="kms"></xsl:value-of>
+            </p>  <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+             estado : <xsl:value-of select="ancestor::situacao/@id"></xsl:value-of>
             </p>
           </div>
           <div class="p-6 pt-0">

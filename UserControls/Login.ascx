@@ -1,10 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Login.ascx.cs" Inherits="Testing_XML.UserControls.Login" %>
 <style>
     /*Form Login*/
-    .tete {
-        border: 1px solid;
-    }
-
+   
     .form-container {
         position: absolute;
         top: 50%;
